@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 
-engine = create_engine("postgresql://postgres:123@localhost/my_db",
+engine = create_engine("postgresql://postgres:paa@localhost/my_db",
 echo = True
 
 )
